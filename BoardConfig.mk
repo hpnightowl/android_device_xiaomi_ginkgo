@@ -16,6 +16,9 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 # Assert
 TARGET_OTA_ASSERT_DEVICE := ginkgo,willow
 
+# Display
+TARGET_SCREEN_DENSITY := 420
+
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
