@@ -17,7 +17,7 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 TARGET_OTA_ASSERT_DEVICE := ginkgo,willow
 
 # DT2W
-TARGET_TAP_TO_WAKE_NODE := "/proc/tp_gesture"
+TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
